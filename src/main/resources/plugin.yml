@@ -1,0 +1,10 @@
+name: EnderChest
+version: 0.0.5
+api: 1.0.0
+author: Leon1917141
+main: EnderChest.Main
+permissions:
+  enderchest.see:
+    default: true
+  enderchest.see.other:
+    default: false
