@@ -26,43 +26,42 @@ public void createDefault() {
         this.addDefault("enderchest.message.commandDescription", "Open your Enderchest!");
         }
 
-public String prefix() {
-        return this.config.getString("enderchest.prefix");
+        public String prefix() {
+                return this.config.getString("enderchest.prefix");
         }
 
-public String open() {
-        return this.config.getString("enderchest.message.open");
+        public String open() {
+                return this.config.getString("enderchest.message.open");
         }
 
         public String usagemessage() {
-        return this.config.getString("enderchest.message.usageMessage");
+                return this.config.getString("enderchest.message.usageMessage");
         }
 
         public String hasNotPermission() {
-        return this.config.getString("enderchest.message.hasNotPermission");
+                return this.config.getString("enderchest.message.hasNotPermission");
         }
 
         public String isNotaPlayer() {
-        return this.config.getString("enderchest.message.isNotaPlayer");
+                return this.config.getString("enderchest.message.isNotaPlayer");
         }
 
         public String isNotOnline() {
-        return this.config.getString("enderchest.message.playerIsNotOnline");
+                return this.config.getString("enderchest.message.playerIsNotOnline");
         }
 
         public boolean openEnderchestMessage() {
-        return this.config.getBoolean("enderchest.options.openEnderchestMessage");
+                return this.config.getBoolean("enderchest.options.openEnderchestMessage");
         }
 
         public String description() {
-        return this.config.getString("enderchest.message.commandDescription");
+                return this.config.getString("enderchest.message.commandDescription");
         }
 
         public void addDefault(String path, Object object) {
-        if (!this.config.exists(path)) {
-        this.config.set(path, object);
-        this.config.save(this.file);
+                if (!this.config.exists(path)) {
+                 this.config.set(path, object);
+                 this.config.save(this.file);
+                }
         }
-
-        }
-        }
+}
