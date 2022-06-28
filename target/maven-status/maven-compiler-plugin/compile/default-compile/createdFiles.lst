@@ -1,0 +1,5 @@
+EnderChest\commands\EnderChest.class
+EnderChest\events\EnderChestListener.class
+EnderChest\util\EnderChestConfig.class
+EnderChest\commands\EnderChest$1.class
+EnderChest\Main.class
